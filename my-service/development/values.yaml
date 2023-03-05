@@ -1,9 +1,9 @@
 environment: development
 namespace: domain1-dev
 serviceName: my-service
-imageTag: abc123
-secrets: 
-  values: [KEYCLOAK_PASSWORD, KEYCLOAK_USER, POSTGRES_DB, KC_DB_URL, POSTGRES_PASSWORD, POSTGRES_USER ] 
+imageTag: asdfkjuyuh2354jhs
+secrets:
+  values: [KEYCLOAK_PASSWORD, KEYCLOAK_USER, POSTGRES_DB, KC_DB_URL, POSTGRES_PASSWORD, POSTGRES_USER]
   #VALID VALUES - service, tools
   applicationType: service
 configmap:
@@ -16,4 +16,4 @@ deployment:
 ingress:
   path: domain/service
 kong:
-  routes: [GET,PUT]
+  routes: [GET, PUT]
