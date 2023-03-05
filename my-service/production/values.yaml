@@ -1,4 +1,4 @@
-environment: prouction
+environment: production
 namespace: domain1-prod
 serviceName: my-service
 imageTag: abc123
